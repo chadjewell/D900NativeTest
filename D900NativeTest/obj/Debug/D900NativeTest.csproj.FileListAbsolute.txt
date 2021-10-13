@@ -1,0 +1,10 @@
+C:\Users\cjewell\source\repos\D900NativeTest\D900NativeTest\bin\Debug\D900NativeTest.exe.config
+C:\Users\cjewell\source\repos\D900NativeTest\D900NativeTest\bin\Debug\D900NativeTest.exe
+C:\Users\cjewell\source\repos\D900NativeTest\D900NativeTest\bin\Debug\D900NativeTest.pdb
+C:\Users\cjewell\source\repos\D900NativeTest\D900NativeTest\obj\Debug\D900NativeTest.csproj.AssemblyReference.cache
+C:\Users\cjewell\source\repos\D900NativeTest\D900NativeTest\obj\Debug\D900NativeTest.Form1.resources
+C:\Users\cjewell\source\repos\D900NativeTest\D900NativeTest\obj\Debug\D900NativeTest.Properties.Resources.resources
+C:\Users\cjewell\source\repos\D900NativeTest\D900NativeTest\obj\Debug\D900NativeTest.csproj.GenerateResource.cache
+C:\Users\cjewell\source\repos\D900NativeTest\D900NativeTest\obj\Debug\D900NativeTest.csproj.CoreCompileInputs.cache
+C:\Users\cjewell\source\repos\D900NativeTest\D900NativeTest\obj\Debug\D900NativeTest.exe
+C:\Users\cjewell\source\repos\D900NativeTest\D900NativeTest\obj\Debug\D900NativeTest.pdb
