@@ -29,6 +29,7 @@ namespace D900NativeTest
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.txtIP = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -51,11 +52,11 @@ namespace D900NativeTest
             this.txtIP.Name = "txtIP";
             this.txtIP.Size = new System.Drawing.Size(100, 20);
             this.txtIP.TabIndex = 0;
-            this.txtIP.Text = "192.168.1.123";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.label1.Location = new System.Drawing.Point(9, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
@@ -65,6 +66,7 @@ namespace D900NativeTest
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.label2.Location = new System.Drawing.Point(119, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(26, 13);
@@ -77,11 +79,11 @@ namespace D900NativeTest
             this.txtPort.Name = "txtPort";
             this.txtPort.Size = new System.Drawing.Size(100, 20);
             this.txtPort.TabIndex = 3;
-            this.txtPort.Text = "23";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.label3.Location = new System.Drawing.Point(229, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 13);
@@ -108,6 +110,7 @@ namespace D900NativeTest
             // lblUser
             // 
             this.lblUser.AutoSize = true;
+            this.lblUser.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.lblUser.Location = new System.Drawing.Point(9, 48);
             this.lblUser.Name = "lblUser";
             this.lblUser.Size = new System.Drawing.Size(29, 13);
@@ -120,11 +123,11 @@ namespace D900NativeTest
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(100, 20);
             this.txtUser.TabIndex = 9;
-            this.txtUser.Text = "admin";
             // 
             // lblPass
             // 
             this.lblPass.AutoSize = true;
+            this.lblPass.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.lblPass.Location = new System.Drawing.Point(122, 48);
             this.lblPass.Name = "lblPass";
             this.lblPass.Size = new System.Drawing.Size(53, 13);
@@ -150,6 +153,9 @@ namespace D900NativeTest
             // 
             // webInsight
             // 
+            this.webInsight.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.webInsight.Location = new System.Drawing.Point(12, 148);
             this.webInsight.MinimumSize = new System.Drawing.Size(20, 20);
             this.webInsight.Name = "webInsight";
@@ -158,7 +164,10 @@ namespace D900NativeTest
             // 
             // lblResults
             // 
+            this.lblResults.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.lblResults.AutoSize = true;
+            this.lblResults.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.lblResults.Location = new System.Drawing.Point(12, 572);
             this.lblResults.Name = "lblResults";
             this.lblResults.Size = new System.Drawing.Size(0, 13);
@@ -168,6 +177,7 @@ namespace D900NativeTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(698, 618);
             this.Controls.Add(this.lblResults);
             this.Controls.Add(this.webInsight);
@@ -183,8 +193,9 @@ namespace D900NativeTest
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtIP);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Native Mode Commands";
             this.ResumeLayout(false);
             this.PerformLayout();
 
